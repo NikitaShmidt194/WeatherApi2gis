@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#map{
+            margin-top: 40px;
+            margin-right: 40px;
+            width: 800px;
+            height: 600px;
+        
+}
+
+.weather{
+    
+            width: 1000px;
+            height: 100vh;
+            margin: 40px auto;
+            
+        
+}
+.output{
+        display: flex;
+            justify-content: space-around;
+            margin: 0 auto;
+            box-shadow: rgba(140, 167, 241, 0.648) 5px 3px 40px 20px   ;
+                border-radius: 50px;
+}
+
+.output #text_content{
+margin-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    line-height: 40px;
+        color: #d4ffc7;
+}
+body {
+
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 8, 51, 0.719), rgba(0, 8, 51, 0.664)), url('./../images/background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    /* width: 100%;
+    min-height: 100vh; */
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_city {
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+ 
+        margin: auto;
+        display: flex;
+        padding-top: 20px;
+    /* align-items: center; */
+    border-radius: 60px;
+    padding: 5px 20px;
+    backdrop-filter: blur(2px) saturate(200%);
+}
+
+.search_city input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+}
+
+::placeholder {
+    color: #cac7ff;
+}
+
+
+.search_city button img {
+    width: 25px;
+}
+
+.search_city button {
+    border: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #5a649d;
+    cursor: pointer;
+}
+
+.weather_output1 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.output {
+    padding-bottom: 30px;
+}
+
+.output #map {
+    width: 400px;
+    height: 300px;
+}
